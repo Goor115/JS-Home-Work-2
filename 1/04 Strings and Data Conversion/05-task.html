@@ -25,6 +25,11 @@
 
         // Выведите на экран сколько пользователю нужно заплатить за каждый продукт по отедльности и всего за все продукты
         // используйте форматированный вывод
+        let sum1 = productQuantity1 * productPrice1;
+        let sum2 = productQuantity2 * productPrice2;
+        let sum3 = productQuantity3 * productPrice3;
+        let allSum = sum1 + sum2 + sum3;
+        alert(`Бумага офисная А4, 80 г/м2, 500 л ${sum1} \r\nБиндеры для бумаги 51 мм ${sum2} \r\nРучка шариковая синяя ${sum3} \r\nНужно оплатить ${allSum}`);
     </script>
 </body>
 </html>
